@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính tổng</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let num = prompt('Enter a number larger than 0: ');
+    while (num<=0){
+        num = prompt(num + ' is not larger than 0. Enter again: ');
+    }
+    let total = 0;
+    for (var i =1; i<=num; i++){
+        total += i;
+    }
+    alert('The sum is '+total);
+</script>
